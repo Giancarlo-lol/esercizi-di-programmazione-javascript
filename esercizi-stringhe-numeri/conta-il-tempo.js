@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+var resto =0
+var secondi = 12560;
+var minuti = 0;
+var ore = 0;
+resto= (secondi%3600);
+ore = (secondi/3600)- resto/3600;
+minuti=((resto/60)-((resto%60)/60));
+secondi=(resto%60);                    
+console.log(ore+' ore '+minuti+' minuti '+secondi+' secondi');
