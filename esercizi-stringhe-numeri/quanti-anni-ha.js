@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+var annoCorrente= 2018;
+var annoNascita=1991;
+var eta = 0;
+var anniMancanti = 0;
+
+eta=annoCorrente-annoNascita;
+anniMancanti=100-eta;
+
+console.log("hai " + eta + " e ti mancano " + anniMancanti + " per arrivare a 100 anni")
