@@ -17,3 +17,15 @@
 
   http://www.imparareaprogrammare.it
 */
+var gattiTot = 44;
+var gattiInFila = 6;
+var fileTot= 0;
+var gattiRimasti = 0;
+fileTot=gattiTot/gattiInFila;
+if ((gattiTot%gattiInFila)>0){  
+    fileTot=fileTot-(gattiTot%gattiInFila/6)+1;
+    gattiRimasti=gattiTot%gattiInFila;
+    console.log("ci sono "+fileTot+" file di Gatti a cui mancano "+gattiRimasti+" gatti per completare l'ultima")
+}else{
+  console.log("ci sono " +fileTot+" file di Gatti")
+}
