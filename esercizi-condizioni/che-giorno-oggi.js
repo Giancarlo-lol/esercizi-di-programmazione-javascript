@@ -22,29 +22,30 @@
 
   http://www.imparareaprogrammare.it
 */
-var day= [lunedi,martedi,mercoledi,giovedi,venerdi, sabato,domenica];
+var day= ["lunedi","martedi","mercoledi","giovedi","venerdi", "sabato","domenica"];
 var input= 10;
-switch(day[input]){
-case day[0]:
+switch(input){
+case 0:
 console.log(day[0]);
 break;
-case day[1]:
+case 1:
 console.log(day[1]);
 break;
-case day[2]:
+case 2:
 console.log(day[2]);
 break;
-case day[3]:
+case 3:
 console.log(day[3]);
 break;
-case day[4]:
+case 4:
 console.log(day[4]);
-break
-case day[5]:
+break;
+case 5:
 console.log(day[5]);
-break
-case day[6]:
+break;
+case 6:
 console.log(day[6]);
-break
+break;
 default:
-console.log("Errore! Giorno della settimana non valido!");
+console.log("Errore! Giorno della settimana non valido");
+}
