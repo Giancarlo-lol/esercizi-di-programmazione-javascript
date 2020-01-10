@@ -25,6 +25,9 @@
 var day= [lunedi,martedi,mercoledi,giovedi,venerdi, sabato,domenica];
 var input= 10;
 switch(day[input]){
+case day[0]:
+console.log(day[0]);
+break;
 case day[1]:
 console.log(day[1]);
 break;
@@ -36,15 +39,12 @@ console.log(day[3]);
 break;
 case day[4]:
 console.log(day[4]);
-break;
+break
 case day[5]:
 console.log(day[5]);
 break
 case day[6]:
 console.log(day[6]);
-break
-case day[7]:
-console.log(day[7]);
 break
 default:
 console.log("Errore! Giorno della settimana non valido!");
